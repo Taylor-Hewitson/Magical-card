@@ -38,10 +38,9 @@ body { font-family: sans-serif; }
 .card__face:hover {
   transition: all 500ms linear;
   box-shadow: 
-  inset 0px 0px 0px 10px #37ff14f1,
+  inset 0px 0px 0px 10px rgba(0,255,60,1),
   0 0 5px white,
-  -10px 0 20px #37ff14f1,
-  10px 0 20px #37ff14f1;
+  0px 0px 84px 0px rgba(0,255,60,1);
 }
 
 .card__face--front {
