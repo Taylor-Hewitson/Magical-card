@@ -36,9 +36,12 @@ body { font-family: sans-serif; }
   box-sizing: border-box;
 }
 .card__face:hover {
-  border-radius: 10px;
-  transition: all 1s;
-  box-shadow: inset 0px 0px 0px 10px #39ff14;
+  transition: all 500ms linear;
+  box-shadow: 
+  inset 0px 0px 0px 10px #37ff14f1,
+  0 0 5px white,
+  -10px 0 20px #37ff14f1,
+  10px 0 20px #37ff14f1;
 }
 
 .card__face--front {
