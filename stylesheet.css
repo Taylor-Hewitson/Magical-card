@@ -32,6 +32,8 @@ body { font-family: sans-serif; }
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 10px;
+  box-shadow: inset 0px 0px 0px 10px #1B1849;
+  box-sizing: border-box;
 }
 
 .card__face--front {
