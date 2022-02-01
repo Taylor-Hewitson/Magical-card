@@ -53,19 +53,13 @@ body { font-family: sans-serif; }
 .card__face--back {
   background: #05040B;
   transform: rotateY(180deg);
+  display: inline-block;
+
+
 }
-.back-font {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
+.card-text-back{
   font-size: small;
-  text-align: center;
-  padding: 10px;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: nowrap;
+  margin: 0 auto;
   padding: 15px;
-  width: 200px;
-  height: 300px;
-  
+  margin: 5px auto;
 }
