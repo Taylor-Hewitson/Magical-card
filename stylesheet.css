@@ -14,6 +14,7 @@ body { font-family: sans-serif; }
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
+  margin:auto;
 }
 
 .card.is-flipped {
@@ -53,13 +54,21 @@ body { font-family: sans-serif; }
 .card__face--back {
   background: #05040B;
   transform: rotateY(180deg);
-  display: inline-block;
+  
 
 
 }
 .card-text-back{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 330px;
+  /*width: 230px;*/
+  text-align: center;
   font-size: small;
-  margin: 0 auto;
-  padding: 15px;
-  margin: 5px auto;
+  line-height: 20px;
+  vertical-align: middle;
+  padding-left:25px;
+  padding-right: 25px;
 }
