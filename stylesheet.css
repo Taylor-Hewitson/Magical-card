@@ -33,7 +33,7 @@ body { font-family: sans-serif; }
   backface-visibility: hidden;
   border-radius: 10px;
   box-shadow: inset 0px 0px 0px 20px #05040B,
-  inset 0px 0px 0px 25px;
+  inset 0px 0px 0px 25px #232163;
 
   box-sizing: border-box;
 }
