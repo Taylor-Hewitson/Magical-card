@@ -32,13 +32,16 @@ body { font-family: sans-serif; }
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 10px;
-  box-shadow: inset 0px 0px 0px 10px #1B1849;
+  box-shadow: inset 0px 0px 0px 20px #05040B,
+  inset 0px 0px 0px 25px;
+
   box-sizing: border-box;
 }
 .card__face:hover {
   transition: all 500ms linear;
   box-shadow: 
-  inset 0px 0px 0px 10px rgba(0,255,60,1),
+  inset 0px 0px 0px 20px #05040B,
+  inset 0px 0px 10px 25px rgba(0,255,60,1),
   0 0 5px white,
   0px 0px 84px 0px rgba(0,255,60,1);
 }
